@@ -3,8 +3,9 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
+using _2NTech.Demo.Tests.Bases;
 
-namespace _2NTech.Demo.Tests
+namespace _2NTech.Demo.Tests.Sites._2NHaber.Components.Navbar
 {
     [TestFixture]
     public class NavbarTests : BaseTest
