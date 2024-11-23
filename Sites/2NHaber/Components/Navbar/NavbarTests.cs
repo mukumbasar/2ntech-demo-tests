@@ -36,7 +36,7 @@ namespace _2NTech.Demo.Tests.Sites._2NHaber.Components.Navbar
 
                 // Navigate back and wait for it to be finalized
                 _driver.Navigate().Back();
-                wait.Until(driver => driver.Url != hrefValue);  
+                wait.Until(driver => driver.Url != hrefValue);
             }
         }
     }
