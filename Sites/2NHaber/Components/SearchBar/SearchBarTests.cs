@@ -44,7 +44,7 @@ namespace _2NTech.Demo.Tests.Sites._2NHaber.Components.SearchBar
             string hrefValue = articleAnchor.GetAttribute("href");
             Assert.IsNotNull(hrefValue, "The hrefValue does not exist.");
 
-            // Instance a jsExecutor, scroll into view of the anchor and click to start navigation
+            // Instance a jsExecutor, scroll into the view of the anchor and click to start navigation
             var jsExecutor = (IJavaScriptExecutor)_driver;
             jsExecutor.ExecuteScript("arguments[0].scrollIntoView(true);", articleAnchor);
             wait.Until(driver => articleAnchor.Displayed && articleAnchor.Enabled);
