@@ -10,7 +10,7 @@ using System.ComponentModel;
 namespace _2NTech.Demo.Tests.Sites._2NHaber.Components.SearchBar
 {
     [TestFixture]
-    public class SearchTests : BaseTest
+    public class SearchBarTests : BaseTest
     {
         /// <summary>
         /// Searches for a keyword and navigates to the details of the selected article.
